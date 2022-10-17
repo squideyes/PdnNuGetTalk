@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>PdnNuGetTalk.NuGetDemo</AssemblyName>
+		<RootNamespace>PdnNuGetTalk.NuGetDemo</RootNamespace>
+		<Company>SquidEyes, LLC</Company>
+		<Copyright>Copyright 2022 by SquidEyes, LLC</Copyright>
+		<Description>A simple demo for the Stateless NuGet</Description>
+		<Authors>Louis S. Berman</Authors>
+		<PackageTags>c#;nuget;guard-clauses;vogen;stateless</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/squideyes/PdnNuGetTalk</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ardalis.GuardClauses" Version="4.0.1" />
+		<PackageReference Include="stateless" Version="5.11.0" />
+		<PackageReference Include="Vogen" Version="3.0.1" />
+	</ItemGroup>
+
+</Project>
