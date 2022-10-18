@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatelessDemo", "StatelessD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BogusDemo", "BogusDemo\BogusDemo.csproj", "{D90502D4-10CA-4898-899D-E8BC9B3041B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{960633C4-97D6-484C-B9E7-E50D40234EE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09470666-DD55-41B3-A28F-C27B024C31A4} = {960633C4-97D6-484C-B9E7-E50D40234EE2}
+		{D90502D4-10CA-4898-899D-E8BC9B3041B6} = {960633C4-97D6-484C-B9E7-E50D40234EE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {286B675A-FFA0-4B52-BD8E-4735E9101E21}
