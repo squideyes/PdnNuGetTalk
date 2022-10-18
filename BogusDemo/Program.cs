@@ -1,4 +1,9 @@
-﻿using Bogus;
+﻿// ********************************************************
+// The use of this source code is licensed under the terms
+// of the MIT License (https://opensource.org/licenses/MIT)
+// ********************************************************
+
+using Bogus;
 using BogusDemo;
 
 //Set the randomzier seed if you wish to generate repeatable data sets.
