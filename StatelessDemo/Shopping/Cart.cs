@@ -98,7 +98,7 @@ public class Cart
             .OnExit(() => Console.WriteLine("Cart Cleared"));
 
         machine.Configure(State.PlaceOrder)
-            .Permit(Trigger.Wait, State.Waiting)
+            .Permit(Trigger.Clear, State.ClearItems)
             .OnEntry(() =>
             {
                 var order = new Order()
@@ -110,9 +110,7 @@ public class Cart
 
                 OnPlaceOrder?.Invoke(this, new PlaceOrderArgs { Order = order });
 
-                items.Clear();
-
-                machine.Fire(Trigger.Wait);
+                machine.Fire(Trigger.Clear);
             })
             .OnExit(() => Console.WriteLine("Order Placed"));
 

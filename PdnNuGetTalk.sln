@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{11D54AC3-4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatelessDemo", "StatelessDemo\StatelessDemo.csproj", "{09470666-DD55-41B3-A28F-C27B024C31A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BogusDemo", "BogusDemo\BogusDemo.csproj", "{D90502D4-10CA-4898-899D-E8BC9B3041B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{09470666-DD55-41B3-A28F-C27B024C31A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09470666-DD55-41B3-A28F-C27B024C31A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09470666-DD55-41B3-A28F-C27B024C31A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90502D4-10CA-4898-899D-E8BC9B3041B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90502D4-10CA-4898-899D-E8BC9B3041B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90502D4-10CA-4898-899D-E8BC9B3041B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90502D4-10CA-4898-899D-E8BC9B3041B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
