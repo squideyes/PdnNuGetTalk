@@ -4,8 +4,9 @@
 // ********************************************************
 
 using Ardalis.GuardClauses;
+using PdnNuGetTalk.StatelessDemo.Contracts;
 
-namespace PdnNuGetTalk.StatelessDemo.Contracts;
+namespace PdnNuGetTalk.NuGetDemo.Contracts.Models;
 
 public class Sku
 {

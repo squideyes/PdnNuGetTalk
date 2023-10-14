@@ -4,6 +4,7 @@
 // ********************************************************
 
 using Ardalis.GuardClauses;
+using PdnNuGetTalk.NuGetDemo.Contracts.Models;
 using System.Collections;
 
 namespace PdnNuGetTalk.StatelessDemo.Contracts;
