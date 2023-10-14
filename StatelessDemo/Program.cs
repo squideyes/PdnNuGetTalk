@@ -3,6 +3,7 @@
 // of the MIT License (https://opensource.org/licenses/MIT)
 // ********************************************************
 
+using PdnNuGetTalk.NuGetDemo.Contracts;
 using PdnNuGetTalk.StatelessDemo.Contracts;
 using PdnNuGetTalk.StatelessDemo.Shopping;
 

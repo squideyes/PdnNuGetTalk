@@ -6,7 +6,7 @@
 using Ardalis.GuardClauses;
 using PdnNuGetTalk.StatelessDemo.Contracts;
 
-namespace PdnNuGetTalk.NuGetDemo.Contracts.Models;
+namespace PdnNuGetTalk.NuGetDemo.Contracts;
 
 public class Sku
 {
